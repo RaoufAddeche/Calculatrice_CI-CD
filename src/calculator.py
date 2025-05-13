@@ -1,7 +1,7 @@
 def add(a : float, b: float) -> float:
     return a + b
 
-def substract(a: float, b: float) -> float:
+def subtract(a: float, b: float) -> float:
     return a - b
 
 
@@ -31,7 +31,7 @@ while True :
         print("résultat :", add(a,b))
     
     elif choix == 2 : 
-        print("résultat :", substract(a,b))
+        print("résultat :", subtract(a,b))
         
     elif choix == 3 : 
         print("résultat :", multiply(a,b))
