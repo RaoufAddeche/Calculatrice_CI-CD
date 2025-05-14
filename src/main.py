@@ -1,5 +1,4 @@
-from src.calculator import add, subtract, multiply, divide
-
+from src.calculator import add, divide, multiply, subtract
 
 choix = 100
 while True:
