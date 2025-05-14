@@ -20,7 +20,9 @@ choix = 100
 while True:
     print("#" * 10, "Calculatrice", "#" * 10)
     print()
-    print("1 - Addition \n2 - Soustraction \n3 - Division \n4 - Multiplication")
+    print(
+        "1 - Addition \n2 - Soustraction \n3 - Division \n4 - Multiplication"
+    )
     choix = int(input("Saisissez un nombre (0 pour quitter) : "))
     if choix == 0:
         print("Meric d'avoir utilisé notre calculatrice. Au revoir")
@@ -43,4 +45,3 @@ while True:
         print("résultat :", divide(a, b))
 
     print("-" * 30)
-
